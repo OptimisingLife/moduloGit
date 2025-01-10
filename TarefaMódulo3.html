@@ -16,7 +16,8 @@
         <label for="senha">Senha</label>
         <input id="senha" type="password" /> <br>
         <label for="telefone">telefone</label>
-        <input id="telefone" type="number" /> <br>
+        <input id="telefone" pattern="\d{10,11}"
+        placeholder="Digite 10 ou 11 números" type="tel"> <br>
         <input type="checkbox" id="checkbox-termos" /> <label for="checkbox-termos">Aceito os termos</label>
         <button type="submit">
             Cadastrar
